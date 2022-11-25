@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+#wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+#container1 {
+    background-color: #ffe1a8;
+    border: solid #723d46 3px;
+    border-radius: 10px;
+    box-shadow: -8px 8px #cfe2e7;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+    width: 100vh;
+}
+
+h1 {
+    color: #e26d5c;
+    font-family: 'Fredoka One', cursive;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #472d30;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#container2 {
+    background-color: #ffe1a8;
+    border: solid #723d46 3px;
+    border-radius: 10px;
+    box-shadow: -8px 8px #cfe2e7;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0;
+    width: 100vh;
+}
+
+#container2 p {
+    margin-bottom: 30px;
+}
+
+#guessForm {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: solid #777777 2px;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 10px;
+    transition: 0.5s;
+    width: 230px;
+}
+
+input:focus {
+    border: solid #723d46 2px;
+}
+
+#guessButton {
+    background-color: #e26d5c;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    padding: 6px 40px;
+}
+
+#guessButton:hover {
+    background-color: #723d46;
+    border-radius: 5px;
+    color: #ffff;
+    padding: 6px 40px;
+    transition: all 0.1s ease-out;
+}
+
+.newGuessButton {
+    background-color: #e26d5c;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    display: none;
+    padding: 6px 40px;
+}
+
+.newGuessButton:hover {
+    background-color: #723d46;
+    border-radius: 5px;
+    color: #ffff;
+    padding: 6px 40px;
+    transition: all 0.1s ease-out;
+}
+
+.guessCorrect {
+    color: #723d46;
+    display: block;
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+}
